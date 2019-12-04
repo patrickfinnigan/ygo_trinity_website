@@ -44,10 +44,21 @@ h3 {
 
 .banlist {
     border-radius: 10px;
+    margin-bottom: 2px;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .banlist-effect {
     background-color: #FF8B53;
+}
+
+.banlist-fusion {
+    background-color: #a086b7;
 }
 
 .banlist-synchro {
@@ -59,7 +70,14 @@ h3 {
     color: white;
 }
 
+.banlist-link {
+    background-color: #009cf7;
+}
+
 .banlist-spell {
     background-color: #157555;
 }
 
+.banlist-trap {
+    background-color: #d86898;
+}
