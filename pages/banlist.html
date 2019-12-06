@@ -1,182 +1,150 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style.css" />
 
     <title>Yugioh Trinity</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Header and Navigation -->
 
-    <img src="../img/Tour-Guide-from-the-Underworld-banner.jpg" class="img-fluid" alt="Responsive image">
+    <img
+      src="../img/Tour-Guide-from-the-Underworld-banner.jpg"
+      class="img-fluid banner"
+      alt="Responsive image"
+    />
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky">
-        <a class="navbar-brand" href="#">YuGiOh Trinity Format</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="index.html">Home</a>
-                <a class="nav-item nav-link" href="topcards.html">Top Cards</a>
-                <a class="nav-item nav-link" href="tournaments.html">Tournaments</a>
-                <a class="nav-item nav-link disabled" href="banlist.html">Banlist<span
-                        class="sr-only">(current)</span></a>
-            </div>
+      <a class="navbar-brand" href="#">YuGiOh Trinity Format</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="index.html">Home</a>
+          <a class="nav-item nav-link" href="topcards.html">Top Cards</a>
+          <a class="nav-item nav-link" href="tournaments.html">Tournaments</a>
+          <a class="nav-item nav-link disabled" href="banlist.html"
+            >Banlist<span class="sr-only">(current)</span></a
+          >
         </div>
+      </div>
     </nav>
 
     <!--Banlist-->
 
     <div class="container-fluid banlist">
-        <!-- Unbanned -->
-        <div class="card">
-            <div class="card-header">
-                Unbanned
-            </div>
-            <div class="card-body">
-                <ul class="list-group">
-                    <p> These cards are no longer restricted. </p>
-                    <div id="unbannedCards"></div>
-                </ul>
-            </div>
+      <!-- Unbanned -->
+      <div class="card">
+        <div class="card-header">
+          Unbanned
         </div>
+        <div class="card-body">
+          <ul class="list-group">
+            <p>These cards are no longer restricted.</p>
+            <div id="unbannedCards"></div>
+          </ul>
+        </div>
+      </div>
 
-        <!-- Semi-Forbidden -->
-        <div class="card">
-            <div class="card-header">
-                Semi-Forbidden
-            </div>
-            <div class="card-body">
-                <ul class="list-group">
-                    <p> You can include one Semi-Forbidden cards per Trinity </p>
-                    <li class="list-group-item banlist banlist-effect">Beatraptor</li>
-                    <li class="list-group-item banlist banlist-effect">Black Luster Soldier – Envoy of the Beginning</li>
-                    <li class="list-group-item banlist banlist-effect">Chaos Dragon Levianeer</li>
-                    <li class="list-group-item banlist banlist-effect">Cyber Jar</li>
-                    <li class="list-group-item banlist banlist-effect">Eater of Millions</li>
-                    <li class="list-group-item banlist banlist-effect">Fossil Dyna Pachycephalo</li>
-                    <li class="list-group-item banlist banlist-effect">Morphing Jar</li>
-                    <li class="list-group-item banlist banlist-effect">Red-Eyes Darkness Metal Dragon</li>
-                    <li class="list-group-item banlist banlist-effect">Sky Striker Ace – Raye</li>
-                    <li class="list-group-item banlist banlist-effect">Yata-Garasu</li>
-                    <li class="list-group-item banlist banlist-effect">Performapal Skullcrobat Joker</li>
-                    <li class="list-group-item banlist banlist-fusion">ABC-Dragon Buster (Was Semi-Forbidden)</li>
-                    <li class="list-group-item banlist banlist-synchro">Denglong, First of the Yang Zing</li>
-                    <li class="list-group-item banlist banlist-synchro">Draco Berserker of the Tenyi (New)</li>
-                    <li class="list-group-item banlist banlist-link">Draco Masters of the Tenyi (New)</li>
-                    <li class="list-group-item banlist banlist-link">Galaxy Satellite Dragon (New)</li>
-                    <li class="list-group-item banlist banlist-link">I:P Masquerena (New)</li>
-                    <li class="list-group-item banlist banlist-link">Salamangreat Pyro Phoenix (New)</li>
-                    <li class="list-group-item banlist banlist-link">Traptrix Sera</li>
-                    <li class="list-group-item banlist banlist-link">World Gears of Theurlogical Demiurgy</li>
-                    <li class="list-group-item banlist banlist-spell">Card of Demise</li>
-                    <li class="list-group-item banlist banlist-spell">Change of Heart (Was Semi-Forbidden)</li>
-                    <li class="list-group-item banlist banlist-spell">Dark Hole</li>
-                    <li class="list-group-item banlist banlist-spell">Giant Ballpark</li>
-                    <li class="list-group-item banlist banlist-spell">Giant Trunade</li>
-                    <li class="list-group-item banlist banlist-spell">Interrupted Kaiju Slumber</li>
-                    <li class="list-group-item banlist banlist-spell">Monster Reborn</li>
-                    <li class="list-group-item banlist banlist-spell">Pot of Extravagance</li>
-                    <li class="list-group-item banlist banlist-spell">Shaddoll Fusion</li>
-                    <li class="list-group-item banlist banlist-spell">Slash Draw</li>
-                    <li class="list-group-item banlist banlist-spell">SPYRAL Resort (Was Semi-Forbidden)</li>
-                    <li class="list-group-item banlist banlist-spell">Terraforming</li>
-                    <li class="list-group-item banlist banlist-spell">The Melody of Awakening Dragon</li>
-                    <li class="list-group-item banlist banlist-spell">Vessel for the Dragon Cycle (New)</li>
-                    <li class="list-group-item banlist banlist-spell">Wavering Eyes</li>
-                    <li class="list-group-item banlist banlist-trap">Crackdown</li>
-                    <li class="list-group-item banlist banlist-trap">Heavy Storm Duster</li>
-                    <li class="list-group-item banlist banlist-trap">Lost Wind</li>
-                    <li class="list-group-item banlist banlist-trap">Solemn Judgment</li>
-                    <li class="list-group-item banlist banlist-trap">Solemn Strike</li>
-                    <li class="list-group-item banlist banlist-trap">Solemn Warning</li>
-                    <li class="list-group-item banlist banlist-trap">Shiranui Style Swallow’s Slash</li>
-                    <li class="list-group-item banlist banlist-trap">Subterror Succession</li>
-                    
-                </ul>
-            </div>
+      <!-- Semi-Forbidden -->
+      <div class="card">
+        <div class="card-header">
+          Semi-Forbidden
         </div>
+        <div class="card-body">
+          <ul class="list-group">
+            <p>You can include one Semi-Forbidden cards per Trinity</p>
+            <div id="semiForbiddenCards"></div>
+          </ul>
+        </div>
+      </div>
 
-        <!-- Co-Forbidden -->
-        <div class="card">
-            <div class="card-header">
-                Co-Forbidden
-            </div>
-            <div class="card-body">
-                <ul class="list-group">
-                    <p> You can include two Co-Forbidden cards per Trinity </p>
-                    <li class="list-group-item banlist banlist-effect">Danger! Bigfoot! (Was Co-Forbidden)</li>
-                    <li class="list-group-item banlist banlist-effect">Witchcrafter Golem Aruru (Was Co-Forbidden)</li>
-                    <li class="list-group-item banlist banlist-effect">Salamangreat Falco (Was Forbidden) </li>
-                    <li class="list-group-item banlist banlist-synchro">Fortune Lady Every (Was Co-Forbidden) </li>
-                    <li class="list-group-item banlist banlist-xyz">Toadally Awesome (Was Co-Forbidden)</li>
-                    <li class="list-group-item banlist banlist-spell">Evil Eye Domain – Pareidolia (Was Forbidden) </li>
-                </ul>
-            </div>
+      <!-- Co-Forbidden -->
+      <div class="card">
+        <div class="card-header">
+          Co-Forbidden
         </div>
-        <!-- Forbidden -->
-        <div class="card">
-            <div class="card-header">
-                Forbidden
-            </div>
-            <div class="card-body">
-                <ul class="list-group">
-                    <h3> Metagame Balance Cards </h3>
-                    <p> These cards are Forbidden as a result of them provably or historically being too strong in the
-                        Trinity Metagame. </p>
-                    <li class="list-group-item banlist banlist-effect">Danger! Bigfoot! (Was Co-Forbidden)</li>
-                    <li class="list-group-item banlist banlist-effect">Witchcrafter Golem Aruru (Was Co-Forbidden)</li>
-                    <li class="list-group-item banlist banlist-effect">Salamangreat Falco (Was Forbidden) </li>
-                    <li class="list-group-item banlist banlist-synchro">Fortune Lady Every (Was Co-Forbidden) </li>
-                    <li class="list-group-item banlist banlist-xyz">Toadally Awesome (Was Co-Forbidden)</li>
-                    <li class="list-group-item banlist banlist-spell">Evil Eye Domain – Pareidolia (Was Forbidden) </li>
-                </ul>
-            </div>
+        <div class="card-body">
+          <ul class="list-group">
+            <p>You can include two Co-Forbidden cards per Trinity</p>
+            <div id="coForbiddenCards"></div>
+          </ul>
         </div>
-        <!-- Unbound -->
-        <div class="card">
-            <div class="card-header">
-                Unbound
-            </div>
-            <div class="card-body">
-                <ul class="list-group">
-                    <p> You can include up to three copies of these cards, just like in the TCG </p>
-                    <li class="list-group-item banlist banlist-effect">Danger! Bigfoot! (Was Co-Forbidden)</li>
-                    <li class="list-group-item banlist banlist-effect">Witchcrafter Golem Aruru (Was Co-Forbidden)</li>
-                    <li class="list-group-item banlist banlist-effect">Salamangreat Falco (Was Forbidden) </li>
-                    <li class="list-group-item banlist banlist-synchro">Fortune Lady Every (Was Co-Forbidden) </li>
-                    <li class="list-group-item banlist banlist-xyz">Toadally Awesome (Was Co-Forbidden)</li>
-                    <li class="list-group-item banlist banlist-spell">Evil Eye Domain – Pareidolia (Was Forbidden) </li>
-                </ul>
-            </div>
+      </div>
+      <!-- Forbidden -->
+      <div class="card">
+        <div class="card-header">
+          Forbidden
         </div>
+        <div class="card-body">
+          <ul class="list-group">
+            <h3>Metagame Balance Cards</h3>
+            <p>
+              These cards are Forbidden as a result of them provably or
+              historically being too strong in the Trinity Metagame.
+            </p>
+            <div id="forbiddenCards"></div>
+          </ul>
+        </div>
+      </div>
+      <!-- Unbound -->
+      <div class="card">
+        <div class="card-header">
+          Unbound
+        </div>
+        <div class="card-body">
+          <ul class="list-group">
+            <p>
+              You can include up to three copies of these cards, just like in
+              the TCG
+            </p>
+            <div id="unboundCards"></div>
+          </ul>
+        </div>
+      </div>
     </div>
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <script type="text/javascript" src="../jsfile.js"></script>
-</body>
-
+  </body>
 </html>
